@@ -10,7 +10,6 @@ function Header() {
           <Typography component="h1" fontWeight="bold" variant="h5" flex={1}>
             وبلاگ فاطمه عارفی
           </Typography>
-          <h1> فاطمه </h1>
           <BookIcon />
         </Toolbar>
       </Container>

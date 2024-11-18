@@ -4,8 +4,8 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import App from "./App";
 
 import "./styles/index.css";
-import "./styles/fonts.css";
 import theme from "./MUI/Theme";
+import { ThemeProvider } from "@mui/material/styles"; // یا '@emotion/react'
 
 const client = new ApolloClient({
   uri: "https://us-west-2.cdn.hygraph.com/content/cm3aj12de03qj06wd2k2fywxm/master",
